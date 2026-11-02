@@ -1,0 +1,32 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Logs, temporary files and caches
+*.log
+*.tmp
+*.bak
+*~
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated firmware artifacts (this skill package, not target firmware repos)
+*.hex
+*.bin
+*.axf
+*.elf
+*.o
+*.obj
+*.uvguix.*
